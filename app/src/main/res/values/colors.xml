@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="bg_login">#3b4148</color>
+    <color name="bg_register">#2E3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#ffffff</color>
+    <color name="btn_login_bg">#ea4c88</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="black">#000</color>
+
+    <color name="Red">#ed1c26</color>
+    <color name="green">#1c9a00</color>
+    <color name="blue">#0077b5</color>
+    <color name="NavBlue">#1F4788</color>
+    <color name="red">#f93c3c</color>
+    <color name="purple">#4e15c8</color>
+    <color name="orgage">#ff8800</color>
+
+    <color name="dkprple">#210c2c</color>
+    <color name="swtWater">#001822</color>
+    <color name="smooth">#1e3504</color>
+    <color name="dkBlue">#000033</color>
+    <color name="transperant">#00FFFFFF</color>
+
+    <color name="refresh">#008000</color>
+    <color name="refresh1">#008080</color>
+    <color name="refresh2">#800080</color>
+</resources>

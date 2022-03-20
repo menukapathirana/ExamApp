@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Jiu-Jitsu School</string>
+
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login.</string>
+    <string name="welcome">sdfsd</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="hint_email">User ID</string>
+    <string name="hint_CourseID">CourseID</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_next">NEXT</string>
+    <string name="emptyList">YOU DON\'T HAVE ANY STUDENT TO FACE THE EXAM</string>
+    <string name="emptyResultList">PLEASE ATTEMPT THE EXAM FIRST</string>
+    <string name="emptyStudentList">YOU DON\'T HAVE ANY STUDENT</string>
+
+
+</resources>

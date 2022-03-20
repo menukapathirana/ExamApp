@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_Forum"
+                android:layout_width="0dip"
+                android:background="@color/dkprple"
+                android:text="Forum"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_Student"
+                android:layout_width="0dip"
+                android:background="@color/smooth"
+                android:text="Student"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_Exam"
+                android:layout_width="0dip"
+                android:background="@color/bg_register"
+                android:text="Start Exam"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btn_Email"
+                android:layout_width="0dip"
+                android:background="@color/dkBlue"
+                android:text="Email"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_News"
+                android:layout_width="0dip"
+                android:background="@color/purple"
+                android:text="News"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/btn_About"
+                android:layout_width="0dip"
+                android:background="@color/swtWater"
+                android:text="About US"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

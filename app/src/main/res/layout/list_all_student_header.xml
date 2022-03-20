@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    >
+    <TextView
+        android:id="@+id/sid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Student ID"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/blue"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/studentID"
+        android:layout_alignBottom="@+id/studentID"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="7dp"
+        android:text="Student Name"
+        android:textColor="@color/blue"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/examattemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/studentID"
+        android:layout_alignBottom="@+id/studentID"
+        android:layout_marginTop="7dp"
+        android:text="Exam Attempt"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+</RelativeLayout>

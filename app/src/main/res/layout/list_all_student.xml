@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_register"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    <TextView
+        android:id="@+id/studentID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/studentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/studentID"
+        android:layout_alignBottom="@+id/studentID"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/examattemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/studentID"
+        android:layout_alignBottom="@+id/studentID"
+        android:layout_marginTop="7dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+</RelativeLayout>
