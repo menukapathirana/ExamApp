@@ -45,7 +45,7 @@ public class Criteria1 extends Activity {
      */
     String instID;
     /**
-     * The Listview lv.
+     * The Listview lv
      */
     ListView lv;
     /**
