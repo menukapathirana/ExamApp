@@ -58,7 +58,7 @@ public class Criteria1 extends Activity {
      */
     int dbcl=1;
     /**
-     * The Tv textview.
+     * The Tv textview
      */
     TextView[] tv;
     /**
